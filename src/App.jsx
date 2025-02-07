@@ -1,4 +1,5 @@
 import React from 'react'
+import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       </div>
       <div className='container mx-auto px-8'>
         <Navbar/>
+        <HeroSection/>
       </div>
     </div>
   )
