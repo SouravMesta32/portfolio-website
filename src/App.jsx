@@ -1,4 +1,5 @@
 import React from 'react'
+import { Experience } from './components/Experience'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
@@ -20,6 +21,7 @@ const App = () => {
         <HeroSection/>
         <Technologies/>
         <Projects/>
+        <Experience/>
       </div>
     </div>
   )
