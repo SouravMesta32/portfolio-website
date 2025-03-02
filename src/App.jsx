@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from './components/Contact'
 import { Experience } from './components/Experience'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
@@ -22,6 +23,7 @@ const App = () => {
         <Technologies/>
         <Projects/>
         <Experience/>
+        <Contact/>
       </div>
     </div>
   )
