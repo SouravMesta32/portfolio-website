@@ -3,7 +3,6 @@ import { TbBrandNextjs } from "react-icons/tb"
 import { SiMongodb, SiMysql, } from "react-icons/si"
 import { DiRedis } from "react-icons/di"
 import { FaNodeJs } from "react-icons/fa" 
-import { BiLogoPostgresql } from "react-icons/bi"
 import { motion } from "framer-motion"
 
 const iconVariants = (duration) => ({
