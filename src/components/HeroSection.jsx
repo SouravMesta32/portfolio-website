@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp"
+import profilePic from "../assets/photo-shot.png"
 import { motion } from "framer-motion"
 const containerVariant = {
     hidden: { opacity: 0 , x: -100},
@@ -39,8 +39,7 @@ const HeroSection = () => {
                         Full stack developer
                     </motion.span>
                     <motion.p  variants={childVariant} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
-                        fjoiajefawoijoijaeroiwejn ijwoaeifj awojoiij dffijaofi aoijeawiofj oaiefjoawfej oaiwjoij weaoifjawijfoiijwe oijfo aojfaewoifj aowfjaiowjf ooijo fsasoija ojjefoi aoijfoaij oajshfo ja'dsfkmoa s;lkkj iija;kjo fjaelu alk faoajfo 
-                    </motion.p>
+                        Full-stack developer with hands-on experience in building practical web applications using the MERN stack. Skilled in creating responsive user interfaces, integrating APIs, and working with real-time and image processing tools. Focused on writing clean code, learning new technologies, and delivering user-friendly solutions.                    </motion.p>
                     <motion.a variants={childVariant} href="/resume.pdf" targer="_blank" rel="noopener noreferre" download className="bg-white rounded-full p-4 text-sm text-stone-800">
                         Download Resume
                     </motion.a>

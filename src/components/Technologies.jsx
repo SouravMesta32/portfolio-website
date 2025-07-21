@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri"
 import { TbBrandNextjs } from "react-icons/tb"
-import { SiMongodb } from "react-icons/si"
+import { SiMongodb, SiMysql, } from "react-icons/si"
 import { DiRedis } from "react-icons/di"
 import { FaNodeJs } from "react-icons/fa" 
 import { BiLogoPostgresql } from "react-icons/bi"
@@ -39,7 +39,8 @@ const Technologies = () => {
                 <FaNodeJs className="text-7xl text-green-500"/>
             </motion.div>
             <motion.div initial="initial" animate="animate" variants={iconVariants(4)} className="p-4">
-                <BiLogoPostgresql className="text-7xl text-sky-700"/>
+                <SiMysql className="text-7xl text-sky-700"/>
+                
             </motion.div>
         </motion.div>
     </div>
